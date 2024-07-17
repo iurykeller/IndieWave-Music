@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>indiewave loggin</title>
+    <link rel="stylesheet" href="../css/index.css.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <video id="video_de_fundo" autoplay loop muted poster="particles_-_7959 (720p).mp4">
+        <source src="particles_-_7959 (720p).mp4" type="video/mp4"></video>
+    
+      <div class="logo"><h1>INDIEWAVE</h1></div>
+    </header>
+    <main>
+      
+    
+      
+      <div class="animation">O INDIE INTERNACIONAL!</div>
+      <div class="form-container">
+        <form class="form" onsubmit="verificar(); return false;">
+          <div id="loggin_texto">LOGGIN</div>
+          <div class="form-group">
+            <label for="email">email</label>
+            <input
+              id="email"
+              placeholder="email:"
+              required=""
+              name="email"
+              type="text"
+            />
+          </div>
+          <div class="form-group">
+            <label for="textarea">senha</label>
+            <input
+              id="senha"
+              type="password"
+              placeholder="senha:"
+              required=""
+              cols="50"
+              rows="10"
+              id="textarea"
+              name="textarea"
+            />
+          </div>
+          <button type="submit" class="form-submit-btn">enviar</button>
+        </form>
+      </div>
+      <script src="../js/index.js"></script>
+    </main>
+  </body>
+</html>

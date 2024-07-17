@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    margin: 0%;
+  }
+  
+
+  @keyframes gradient-border {
+    0% {
+        border-color: black;
+    }
+    50% {
+        border-color: white;
+    }
+    100% {
+        border-color: black;
+    }
+}
+  
+#cabecalho{
+  background-color: rgb(7, 7, 7);
+ border-radius: 40px;
+ border-style: solid;
+ border-color: white;
+ margin-top: 10px;
+ margin-bottom: 5%;
+ animation: gradient-border 5s infinite alternate;
+ }
+
+ #texto_cabeçalho{
+  text-align: center;
+  color: aliceblue;
+
+ }
+
+ #container_musicas{
+
+  border-style: solid;
+  border-color: white;
+  margin: 1%;
+  padding-bottom: 30%;
+  grid-row: auto;
+  animation: gradient-border 2.4s infinite alternate;
+  
+  
+
+ }
+
+ #container_música1{
+
+  border-style: solid;
+  border-color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 75%;
+  margin-bottom: 40%;
+  background-image: url(../html/imagem\ sweater\ wheatere.jpg);
+  padding-top: 15%;
+  border-radius: 20px;
+  background-size: cover;
+  
+
+ }
+
+ #player_musica1{
+  margin-top: 15%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  
+
+
+
+ }
+
+ #musica{
+  width: 90%;
+  
+ }
